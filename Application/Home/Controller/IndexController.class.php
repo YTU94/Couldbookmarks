@@ -5,15 +5,17 @@ class IndexController extends Controller {
     public function index(){
 
         $model = M('messages');
-        $classify = I('post.classify');
-        print_r($classify);
-        $res = D('Addclassify')->addclassify($classify);
-        
+        $classify = M('classify');
+        /*获取已经添加的分类*/
+        $allclassify = $classify->select();
+
+        $this->assign('classifys',$allclassify);
         /** 提交内容 */
         if (isset($_POST['submit'])) {
             $name = I('post.name');
             $content = I('post.content');
-
+            $classify = I('post.sclassify');
+            
             if ($name == '' || $content == '') {
                 $this->error('请输入完整内容');
             }
@@ -26,7 +28,7 @@ class IndexController extends Controller {
             ];
             $model->data($data)->add();
 
-            $this->success('留言成功');exit;
+            $this->success('添加成功');exit;
         }
 
         /** 获取已经留言的数据 */
@@ -40,6 +42,20 @@ class IndexController extends Controller {
             View/Index(当前的控制器，我这里是IndexController也就是Index)/index(当前的方法) 
         */
         $this->display();
+        print_r($res);exit;
     }
+    /*验证分类数据*/
+    public function check(){
+        $res = $_POST['classify'];
+        print_r($res);
+        if( $res == ""){
+            return show(0,'不能为空');
+        }
+        D('Addclassify')->addclass($res);
+        return show(1,'完成');
+        
+
+    }
+
 
 }

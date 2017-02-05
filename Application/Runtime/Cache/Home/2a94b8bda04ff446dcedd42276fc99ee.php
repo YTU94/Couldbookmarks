@@ -11,6 +11,9 @@
 
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src='/Public/js/addclass.js'></script>
+	<script src='/Public/js/dialog.js'></script>
+	<script src='/Public/js/dialog/layer.js'></script>
 
 	<style>
 		* { font-family: "Microsoft Yahei"; font-weight: 200; }
@@ -25,45 +28,44 @@
 			<div class="col-md-12">
 				<h3 style="line-height: 100px;">云标签</h3>
 			</div>
-			
+		<form action="" method="post">			
 			<div class="col-md-12">
 				<h4 style="line-height: 100px;">新建分类</h4>
 				<input type="text" name="addclassify">
-				<input type="button" value="新建" onclick="addclassify.addclassifys()">
+				
+				<button class="btn" type="button" onclick="addclass.check()">添加</button>
 			</div>	
 
 			<div class="col-md-12">
-				
-				<form action="" method="post">
 					
-					<div class="row mb-20">
-						<label class="col-md-3 text-right">简介</label>
-						<div class="col-md-5">
-							<input type="text" name="name" class="form-control">
-						</div>
+				<div class="row mb-20">
+					<label class="col-md-3 text-right">简介</label>
+					<div class="col-md-5">
+						<input type="text" name="name" class="form-control">
 					</div>
+				</div>
 
-					<div class="row mb-20">
-						<label class="col-md-3 text-right">URL地址</label>
-						<div class="col-md-5">
-							<input type="text" name="content" class="form-control">	
-						</div>
+				<div class="row mb-20">
+					<label class="col-md-3 text-right">URL地址</label>
+					<div class="col-md-5">
+						<input type="text" name="content" class="form-control">	
 					</div>
+				</div>
 
-					<div class="row mb-20">
-						<label class="col-md-3 text-right">分类</label>
-						<div class="col-md-5">
-							<select name="" id="" value="所有">所有</select>
-						</div>
+				<div class="row mb-20">
+					<label class="col-md-3 text-right">分类</label>
+					<div class="col-md-5">
+						<select name="sclassify" id="class" value="">
+							<?php if(is_array($classifys)): $i = 0; $__LIST__ = $classifys;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$classify): $mod = ($i % 2 );++$i;?><option value='<?php echo ($classify["cname"]); ?>'><?php echo ($classify["cname"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>	
+						</select>
 					</div>
-
-					<div class="row">
-						<div class="col-md-3 col-md-offset-3">
-							<button class="btn btn-primary" name="submit" type="submit">提交</button>
-						</div>
+				</div>
+		</form>
+				<div class="row">
+					<div class="col-md-3 col-md-offset-3">
+						<button class="btn btn-primary" name="submit" type="submit">提交</button>
 					</div>
-
-				</form>
+				</div>
 
 			</div>
 		</div>
@@ -79,7 +81,7 @@
 					<?php echo ($message["content"]); ?>
 				</div>
 				<div class="panel-footer text-right">
-					时间：<?php echo ($message["created_at"]); ?>
+					分类: <span style="color: red;"><?php echo ($message["classify"]); ?> </span>&nbsp;&nbsp;&nbsp;&nbsp;时间：<?php echo ($message["created_at"]); ?>
 				</div>
 			</div><?php endforeach; endif; else: echo "暂无数据" ;endif; ?>
 		</div>
@@ -91,6 +93,6 @@
 			<p>Copyright message.co</p>
 		</div>
 	</div>
-<script src='/Public/js/addclassify.js'></script>
+
 </body>
 </html>

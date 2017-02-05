@@ -8,10 +8,10 @@ class AddclassifyModel extends Model
 {
 
 
-	public function addclassify($classify) {
-		$_db = M('messages');
-		$data['classify'] = $classify;
-		print_r($data); 
+	public function addclass($classify) {
+
+		$_db = M('classify');
+		$data['cname'] = $classify;
 		$_db->data($data)->add();
 		
 	} 
