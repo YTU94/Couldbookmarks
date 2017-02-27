@@ -17,7 +17,7 @@ class IndexController extends Controller {
             $classify = I('post.sclassify');
             
             if ($name == '' || $content == '') {
-                $this->error('请输入完整内容');
+                $this->error('请输入完整内容',1);
             }
 
             $data =  [
@@ -28,7 +28,7 @@ class IndexController extends Controller {
             ];
             $model->data($data)->add();
 
-            $this->success('添加成功');exit;
+            $this->success('添加成功',1);exit;
         }
 
         /** 获取已经留言的数据 */
@@ -44,17 +44,25 @@ class IndexController extends Controller {
         $this->display();
         print_r($res);exit;
     }
+
     /*验证分类数据*/
     public function check(){
         $res = $_POST['classify'];
-        print_r($res);
         if( $res == ""){
             return show(0,'不能为空');
         }
         D('Addclassify')->addclass($res);
-        return show(1,'完成');
-        
+        return show(1,'完成');     
+    }
 
+    /*删除数据*/
+    public function del(){
+        $res = $_POST['id'];
+        if( $res == ""){
+            return show(0,'删除失败');
+        }
+        D('DeleteMessage')->delete($res);
+        return show(1,'删除成功');
     }
 
 

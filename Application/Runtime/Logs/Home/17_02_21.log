@@ -1,0 +1,250 @@
+[ 2017-02-21T13:17:55+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.009950s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005281s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000379s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-02-21T13:18:06+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.007141s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005946s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('666') [ RunTime:0.000875s ]
+
+[ 2017-02-21T13:18:09+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.005572s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004433s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('666') [ RunTime:0.000411s ]
+
+[ 2017-02-21T13:18:15+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.005692s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004494s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000407s ]
+
+[ 2017-02-21T13:18:16+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004202s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004450s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000385s ]
+
+[ 2017-02-21T13:18:17+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004302s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.002969s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000282s ]
+
+[ 2017-02-21T13:18:18+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.007745s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006533s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000495s ]
+
+[ 2017-02-21T13:18:19+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.007378s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006605s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000619s ]
+
+[ 2017-02-21T13:18:20+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.002972s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.001697s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000158s ]
+
+[ 2017-02-21T13:18:21+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.001804s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.001934s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000268s ]
+
+[ 2017-02-21T13:18:22+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.007244s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006579s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000669s ]
+
+[ 2017-02-21T13:18:23+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.007569s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006541s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('66699') [ RunTime:0.000579s ]
+
+[ 2017-02-21T13:18:24+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008572s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006786s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000582s ]
+SQL: INSERT INTO `messages` (`name`,`content`,`classify`,`created_at`) VALUES ('324','SAEQW','js','2017-02-21 13:18:24') [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-02-21T13:18:26+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008763s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006528s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000597s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000666s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-02-21T13:18:37+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.007332s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006527s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('21312SDFS') [ RunTime:0.000582s ]
+
+[ 2017-02-21T13:18:39+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.002170s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.002049s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('21312SDFS') [ RunTime:0.000163s ]
+
