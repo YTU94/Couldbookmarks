@@ -46,5 +46,26 @@ var addclass = {
 
         },'JSON');
 
+    },
+
+        delClass : function(id) {
+        var url = "/index.php?m=admin&c=index&a=del";
+        var data = {'id':id};
+
+        // 执行异步请求  $.post
+        $.post(url,data,function(result){
+            var res = result;
+            console.log(res);            
+            if(result.status == 0) {
+                return dialog.error(result.message);
+            }
+            if(result.status == 1) {
+
+                return dialog.success(result.message, '/index.php?m=admin&c=index&a=index');
+            }
+
+        },'JSON');
+
     }
+
 }

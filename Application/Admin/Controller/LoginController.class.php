@@ -24,7 +24,12 @@ class LoginController extends Controller
         if(!trim($password)) {
             return show(0,'密码不能为空');
         }
-
+        if(trim($username) !== 'admin') {
+            return show(0,'用户名错误');
+        }         
+        if(trim($password) !== 'admin') {
+            return show(0,'密码错误');
+        }        
         // $ret = D('Admin')->getAdminByUsername($username);
         
         // if(!$ret || $ret['status'] !=1) {
@@ -37,7 +42,8 @@ class LoginController extends Controller
 
         //D("Admin")->updateByAdminId($ret['admin_id'],array('lastlogintime'=>time()));
 
-        session('adminUser', $ret);
+        //session('adminUser', $ret);
+
         return show(1,'登录成功');
 
 

@@ -28,7 +28,7 @@ class IndexController extends Controller {
             ];
             $model->data($data)->add();
 
-            $this->success('添加成功',1);exit;
+            $this->success('添加成功');exit;
         }
 
         /** 获取已经留言的数据 */
@@ -58,10 +58,11 @@ class IndexController extends Controller {
     /*删除数据*/
     public function del(){
         $res = $_POST['id'];
+        $tabName = 'messages';
         if( $res == ""){
             return show(0,'删除失败');
         }
-        D('DeleteMessage')->delete($res);
+        D('DeleteMessage')->delete($res,$tabName);
         return show(1,'删除成功');
     }
 

@@ -8,9 +8,9 @@ use Think\Model;
 class DeleteMessageModel extends Model
 {
 	
-	public function delete($id)
+	public function delete($id,$tableName)
 	{
-		$_db = M('messages');
+		$_db = M($tableName);
 		$_id = $id;
 
 		$map['id'] = $_id;

@@ -11,18 +11,22 @@
 
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-	<script src='/Public/js/addclass.js'></script>
-	<script src='/Public/js/dialog.js'></script>
-	<script src='/Public/js/dialog/layer.js'></script>
+	<script src='./Public/js/addclass.js'></script>
+	<script src='./Public/js/dialog.js'></script>
+	<script src='./Public/js/dialog/layer.js'></script>
 
 	<style>
 		* { font-family: "Microsoft Yahei"; font-weight: 200; }
 		.mb-20 { margin-bottom: 20px; }
+
+		/*body{background: url(/Public/images/bg.png) no-repeat center;}*/
+
 	</style>
 </head>
 <body>
 	
 	<div class="container">
+<a href="/index.php?m=admin&c=login&a=index" class="btn btn-large btn-primary" style="text-decoration: none;float: right;position: relative; top: 40px;right: 12px;">后台管理</a>	
 		<div class="row">
 
 			<div class="col-md-">
@@ -84,7 +88,7 @@
 		<div class="col-md-12">
 			<?php if(is_array($messages)): $i = 0; $__LIST__ = $messages;if( count($__LIST__)==0 ) : echo "暂无数据" ;else: foreach($__LIST__ as $key=>$message): $mod = ($i % 2 );++$i;?><div class="panel panel-default mb-20">
 				<div class="panel-heading">简介：<?php echo ($message["name"]); ?>
-					<div class="text-right" style="display: inline-block;float: right;position: relative;top: -7px;color: red;">
+					<div class="text-right" style="display: inline-block;float: right;position: relative;top: -7px;">
 						<button class="btn" type="button" onclick="addclass.del(<?php echo ($message["id"]); ?>)">删除</button>
 					</div>
 				</div>
