@@ -45,25 +45,25 @@ class IndexController extends Controller {
         print_r($res);exit;
     }
 
-    /*验证分类数据*/
-    public function check(){
+    /*验证分类数据 添加分类*/
+    public  function check(){
         $res = $_POST['classify'];
+        $result = ['status' => '1'];
         if( $res == ""){
-            return show(0,'不能为空');
+            return show(0,'删除失败');
         }
         D('Addclassify')->addclass($res);
-        return show(1,'完成');     
+        return  show(1,'删除成功');
     }
-
     /*删除数据*/
-    public function del(){
+    public function delMsg(){
         $res = $_POST['id'];
         $tabName = 'messages';
         if( $res == ""){
             return show(0,'删除失败');
         }
         D('DeleteMessage')->delete($res,$tabName);
-        return show(1,'删除成功');
+        return  show(1,'删除成功');
     }
 
 

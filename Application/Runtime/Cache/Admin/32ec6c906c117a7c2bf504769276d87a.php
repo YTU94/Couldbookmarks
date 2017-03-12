@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -13,7 +13,7 @@
 	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <style>
 html, body{width: 100%; height:100%;}
-body{background: url(/Public/images/bg.png) no-repeat center;}
+body{background: url(./Public/images/bg.png) no-repeat center;}
 h1,span{color: #fff;}
 input{padding-left: 6px;}	
 </style>		

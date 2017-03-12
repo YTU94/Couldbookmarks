@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>留言板</title>
+	<title>云书签</title>
 	<!-- 新 Bootstrap 核心 CSS 文件 -->
 	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
 
@@ -26,7 +26,7 @@
 <body>
 	
 	<div class="container">
-<a href="/index.php?m=admin&c=login&a=index" class="btn btn-large btn-primary" style="text-decoration: none;float: right;position: relative; top: 40px;right: 12px;">后台管理</a>	
+<a href="/couldbookmarks/index.php?m=admin&c=login&a=index" class="btn btn-large btn-primary" style="text-decoration: none;float: right;position: relative; top: 40px;right: 12px;">后台管理</a>	
 		<div class="row">
 
 			<div class="col-md-">
@@ -52,11 +52,12 @@
 				</div>
 
 				<div class="row mb-20">
-					<label class="col-md-2 text-right">分类</label>
+					<label class="col-md-2 text-right" >分类</label>
 					<div class="col-md-7">
-						<select name="sclassify" id="class" value="">
-							<volist name="classifys" id="classify">
-								<option value='{$classify.cname}'>{$classify.cname}</option>
+						<select name="sclassify" id="class">
+							<option value="null">null</option>
+							<volist name="classifys" id="classify" empty="暂无数据">
+								<option value='{$classify.cname}' selected="selected">{$classify.cname}</option>
 							</volist>	
 						</select>
 					</div>
@@ -92,11 +93,11 @@
 			<div class="panel panel-default mb-20">
 				<div class="panel-heading">简介：{$message.name}
 					<div class="text-right" style="display: inline-block;float: right;position: relative;top: -7px;">
-						<button class="btn" type="button" onclick="addclass.del({$message.id})">删除</button>
+						<button class="btn" type="button" onclick="addclass.delMessage({$message.id})">删除</button>
 					</div>
 				</div>
 				<div class="panel-body">
-					{$message.content}
+					<a href="{$message.content}">{$message.content}</a>
 				</div>
 				<div class="panel-footer text-right">
 					分类: <span style="color: red;">{$message.classify} </span>&nbsp;&nbsp;&nbsp;&nbsp;时间：{$message.created_at}

@@ -1,849 +1,1347 @@
-[ 2017-02-28T17:41:58+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+[ 2017-02-28T15:00:25+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=test
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.009508s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003280s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000268s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.001325s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-02-28T15:00:25+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-02-28T15:00:25+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-02-28T15:00:29+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-02-28T15:00:31+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-02-28T15:00:40+08:00 ] 101.226.33.226 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+
+[ 2017-02-28T15:06:01+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-02-28T15:07:43+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-02-28T15:07:44+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-02-28T15:09:00+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-02-28T15:09:01+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-02-28T15:09:01+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-02-28T15:09:02+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-02-28T15:11:50+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000296s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000165s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:12:09+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000302s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000144s ]
+SQL: INSERT INTO `messages` (`name`,`content`,`classify`,`created_at`) VALUES ('213','21312','  阿斯顿','2017-02-28 15:12:09') [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-02-28T15:12:42+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-02-28T15:12:45+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-02-28T15:12:46+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-02-28T15:12:51+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-02-28T15:12:52+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-02-28T15:12:53+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-02-28T15:13:23+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000299s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000181s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:13:29+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000159s ]
+SQL: INSERT INTO `messages` (`name`,`content`,`classify`,`created_at`) VALUES ('121212','12121212','  阿斯顿','2017-02-28 15:13:29') [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+
+[ 2017-02-28T15:13:30+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000312s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000144s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:14:16+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000328s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000139s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:15:40+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000320s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000146s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:16:02+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000317s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000191s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:18:55+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008358s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000321s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000141s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:19:21+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000142s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:20:06+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: id /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 60 行.
+
+[ 2017-02-28T15:20:27+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000358s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000149s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:20:28+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000334s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000140s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000166s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:20:32+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000404s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000434s ]
+SQL: DELETE FROM `messages` WHERE `id` = 19 [ RunTime:0.000214s ]
+
+[ 2017-02-28T15:21:03+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000304s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000142s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:21:04+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000411s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000406s ]
+SQL: DELETE FROM `messages` WHERE `id` = 20 [ RunTime:0.000207s ]
+
+[ 2017-02-28T15:21:17+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000325s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000143s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:21:19+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000420s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000387s ]
+SQL: DELETE FROM `messages` WHERE `id` = 22 [ RunTime:0.000214s ]
+
+[ 2017-02-28T15:21:20+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000297s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000227s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:21:23+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000429s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000408s ]
+SQL: DELETE FROM `messages` WHERE `id` = 21 [ RunTime:0.000210s ]
+
+[ 2017-02-28T15:21:24+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000415s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000159s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:21:26+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000436s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000384s ]
+SQL: DELETE FROM `messages` WHERE `id` = 26 [ RunTime:0.000220s ]
+
+[ 2017-02-28T15:21:27+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000300s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000142s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T15:21:30+08:00 ] 101.226.65.107 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000324s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000142s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:20:32+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000301s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000143s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000179s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:22:12+08:00 ] 36.5.6.7 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000303s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000143s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:28:29+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.026766s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000318s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000185s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:29:12+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000312s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000141s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:29:28+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000142s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:30:33+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000302s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000185s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:33:38+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000294s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000155s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:34:14+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000318s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000141s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:34:17+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000470s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000384s ]
+SQL: DELETE FROM `messages` WHERE `id` = 23 [ RunTime:0.000223s ]
+
+[ 2017-02-28T20:34:18+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000302s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000141s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:34:19+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000413s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000385s ]
+SQL: DELETE FROM `messages` WHERE `id` = 24 [ RunTime:0.000205s ]
+
+[ 2017-02-28T20:34:20+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000330s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000140s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:34:21+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000410s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000405s ]
+SQL: DELETE FROM `messages` WHERE `id` = 25 [ RunTime:0.000204s ]
+
+[ 2017-02-28T20:34:22+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000299s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000141s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:34:28+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000337s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000141s ]
+SQL: INSERT INTO `messages` (`name`,`content`,`classify`,`created_at`) VALUES ('baidu','baidu','js','2017-02-28 20:34:28') [ RunTime:0.000208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-02-28T20:34:29+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000317s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000141s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:34:39+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.000429s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000332s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('9999999') [ RunTime:0.000186s ]
+
+[ 2017-02-28T20:34:40+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000317s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000145s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:37:13+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000321s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000117s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:38:17+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000132s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:38:46+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000305s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000116s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:38:48+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000117s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:38:54+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000317s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000117s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000138s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006157s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.006231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007317s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
 
-[ 2017-02-28T17:42:00+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+[ 2017-02-28T20:39:26+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004172s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000462s ]
+SQL: DELETE FROM `messages` WHERE `id` = 27 [ RunTime:0.000214s ]
+
+[ 2017-02-28T20:39:27+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000315s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000117s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
+
+[ 2017-02-28T20:39:33+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=check
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.009048s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006732s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000578s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000665s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.000454s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000335s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('asdasd') [ RunTime:0.000175s ]
+
+[ 2017-02-28T20:39:34+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000301s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000137s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000119s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015702s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.015789s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006613s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
 
-[ 2017-02-28T17:42:02+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+[ 2017-02-28T20:39:37+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006536s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004480s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000429s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000430s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000298s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000257s ]
+SQL: INSERT INTO `messages` (`name`,`content`,`classify`,`created_at`) VALUES ('asd','asd','asdasd','2017-02-28 20:39:37') [ RunTime:0.000361s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007706s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.007766s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004529s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
 
-[ 2017-02-28T17:44:01+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+[ 2017-02-28T20:39:38+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=index
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006362s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004969s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000440s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000446s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000424s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000134s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000143s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011805s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011885s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006937s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
 
-[ 2017-02-28T17:44:22+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+[ 2017-02-28T20:39:40+08:00 ] 36.5.6.7 /couldbookmarks/index.php?m=home&c=index&a=del
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008511s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006925s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000601s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000660s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017108s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.017191s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) /alidata/www/phpwind/couldbookmarks/Application/Common/Model/DeleteMessageModel.class.php 第 9 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.000426s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000409s ]
+SQL: DELETE FROM `messages` WHERE `id` = 28 [ RunTime:0.000206s ]
 
-[ 2017-02-28T17:45:57+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+[ 2017-02-28T20:57:37+08:00 ] 36.5.6.7 /couldbookmarks/
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.007739s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006968s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000738s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000676s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013244s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.013335s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T17:46:44+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006200s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004196s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000367s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000385s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011083s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011160s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T17:46:59+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.003544s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.001980s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000127s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000313s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000117s ]
 SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000123s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004373s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004404s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006340s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
 
-[ 2017-02-28T17:47:45+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+[ 2017-02-28T21:01:58+08:00 ] 36.5.6.7 /couldbookmarks/
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008808s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006818s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000616s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000646s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000297s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000133s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000117s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015094s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.015182s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T17:49:13+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008624s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.007527s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000611s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000660s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016723s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.016806s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T17:53:40+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.003584s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.001960s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000180s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000193s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005240s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.005275s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T17:55:09+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008899s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006525s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000607s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000662s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016511s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.016632s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T19:46:31+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004161s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003582s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000366s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000427s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010314s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010381s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T19:46:34+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=del
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
-NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.007538s ]
-ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
- [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.007024s ]
-SQL: DELETE FROM `messages` WHERE `id` = 19 [ RunTime:0.001681s ]
-
-[ 2017-02-28T19:46:36+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008731s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.007426s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000614s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000648s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018341s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.018460s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T19:46:38+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=del
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
-NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004390s ]
-ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
- [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004690s ]
-SQL: DELETE FROM `messages` WHERE `id` = 20 [ RunTime:0.000421s ]
-
-[ 2017-02-28T19:46:40+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005587s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003961s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000366s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000370s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010238s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010313s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T19:56:01+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004616s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.002481s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000263s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000244s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004463s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004500s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006428s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
 
-[ 2017-02-28T20:07:44+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005763s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004061s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000298s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000351s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007942s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.007997s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:13:42+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.003702s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.001991s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000224s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000305s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013607s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.013673s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:14:19+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008615s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006828s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000541s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000635s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017153s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.017280s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:14:30+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005503s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003810s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000304s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000371s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009820s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.009893s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:15:18+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004448s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.002479s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000204s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000235s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006941s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.006994s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:15:26+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.003438s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.001761s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000148s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000164s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004239s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004271s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:16:04+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006004s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003886s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000332s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000397s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008881s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.008939s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:16:11+08:00 ] 127.0.0.1 /index.php?m=home&c=login&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
-ERR: 无法加载控制器:Login
-
-[ 2017-02-28T20:16:22+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.007565s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006100s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000442s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000568s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013091s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.013198s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:16:34+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008705s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.007006s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000528s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000630s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016917s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.017038s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:40:16+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006151s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004550s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000343s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000383s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023438s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.023492s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:40:51+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008938s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006685s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000568s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000560s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011744s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011840s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:41:50+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.009090s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.007047s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000529s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000634s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015936s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.016031s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:43:14+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008905s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005933s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000362s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000409s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010937s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011020s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:43:17+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=del
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
-NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.006880s ]
-ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
- [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.007591s ]
-SQL: DELETE FROM `messages` WHERE `id` = 21 [ RunTime:0.000966s ]
-
-[ 2017-02-28T20:43:19+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005654s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004493s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000388s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000375s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010214s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010289s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:43:22+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=check
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.007561s ]
-ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
- [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006691s ]
-SQL: INSERT INTO `classify` (`cname`) VALUES ('sadas') [ RunTime:0.001200s ]
-
-[ 2017-02-28T20:43:24+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006073s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004071s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000331s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000346s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009745s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.009821s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:43:28+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008438s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006883s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000551s ]
-SQL: INSERT INTO `messages` (`name`,`content`,`classify`,`created_at`) VALUES ('asd','asd','css','2017-02-28 20:43:28') [ RunTime:0.000606s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011965s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.012093s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
-
-[ 2017-02-28T20:43:30+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
+[ 2017-02-28T21:02:04+08:00 ] 36.5.6.7 /couldbookmarks/
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005576s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004292s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000323s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000417s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /alidata/www/phpwind/couldbookmarks/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.016973s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.000328s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000118s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000117s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009986s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010067s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006575s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
-
-[ 2017-02-28T20:43:46+08:00 ] 127.0.0.1 /index.php?m=home&c=index&a=index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
-NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
-SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.003628s ]
-SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.002159s ]
-SQL: SELECT * FROM `classify`  [ RunTime:0.000210s ]
-SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000232s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004390s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.004420s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
-NOTIC: [8] Undefined variable: res D:\OfficeSoftware\phpstudy\WWW\couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: res /alidata/www/phpwind/couldbookmarks/Application/Home/Controller/IndexController.class.php 第 45 行.
 

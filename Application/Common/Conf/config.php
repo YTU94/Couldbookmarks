@@ -7,7 +7,7 @@ return array(
     'MD5_PRE' => 'sing_cms',
     'HTML_FILE_SUFFIX' => '.html',	
 
-    	'DB_TYPE'   => 'mysql', // 数据库类型
+    	'DB_TYPE'   => 'mysqli', // 数据库类型
 	'DB_HOST'   => 'localhost', // 服务器地址
 	'DB_NAME'   => 'couldbookmarks', // 数据库名
 	'DB_USER'   => 'root', // 用户名
