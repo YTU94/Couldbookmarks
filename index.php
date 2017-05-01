@@ -24,3 +24,9 @@ define('APP_PATH','./Application/');
 require './ThinkPHP/ThinkPHP.php';
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
+// 绑定访问Admin模块
+define('BIND_MODULE','Admin');
+// 绑定访问Index控制器
+define('BIND_CONTROLLER','Login');
+// 绑定访问test操作
+define('BIND_ACTION','index');

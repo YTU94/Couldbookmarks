@@ -30,6 +30,16 @@
 			</volist>
 		</ul>
 	</div>
+
+	<h1 style="margin:180px 0 80px 0; ">用户管理</h1>
+	<div class="col-md-12 text-center">
+		<div class="col-md-2"><h1 style="line-height: .1;">现有用户:</h1></div>
+		<ul class="list-group col-md-8">
+			<volist name="users" id="user" empty="暂无数据">
+				<li class="list-group-item text-left" style="">{$user.username} <button class="btn" style="display: inline-block;float: right;position: relative;top: -7px;" type="button" onclick="addclass.delClass({$user.id})">删除</button></li>
+			</volist>
+		</ul>
+	</div>
 </div>	
 </body>
 </html>

@@ -11,7 +11,12 @@ class IndexController extends Controller
 	public function index()
 	{
         $classify = M('classify');
+        $user = M('users');
+
+        $users = $user->select();
         $classifys = $classify->select();
+
+        $this->assign('users',$users);
 		$this->assign('classifys',$classifys);
 		$this->display();
 	}

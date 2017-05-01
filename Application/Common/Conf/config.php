@@ -15,4 +15,10 @@ return array(
 	'DB_PORT'   => 3306, // 端口
 	'DB_PREFIX' => '', // 数据库表前缀 
 	'DB_CHARSET'=> 'utf8', // 字符集
+
+
+	'APP_SUB_DOMAIN_DEPLOY'   =>    1,
+
+	// 'MODULE_DENY_LIST' => array('Home','Admin'),
+	// 'DEFAULT_MODULE' => 'Admin'
 );

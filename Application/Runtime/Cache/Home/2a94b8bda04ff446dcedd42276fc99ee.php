@@ -54,8 +54,9 @@
 				<div class="row mb-20">
 					<label class="col-md-2 text-right" >分类</label>
 					<div class="col-md-7">
-						<select name="sclassify" id="class" value="">
-							<?php if(is_array($classifys)): $i = 0; $__LIST__ = $classifys;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$classify): $mod = ($i % 2 );++$i;?><option value='<?php echo ($classify["cname"]); ?>'><?php echo ($classify["cname"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>	
+						<select name="sclassify" id="class">
+							<option value="null">null</option>
+							<?php if(is_array($classifys)): $i = 0; $__LIST__ = $classifys;if( count($__LIST__)==0 ) : echo "暂无数据" ;else: foreach($__LIST__ as $key=>$classify): $mod = ($i % 2 );++$i;?><option value='<?php echo ($classify["cname"]); ?>' selected="selected"><?php echo ($classify["cname"]); ?></option><?php endforeach; endif; else: echo "暂无数据" ;endif; ?>	
 						</select>
 					</div>
 				</div>
@@ -93,7 +94,7 @@
 					</div>
 				</div>
 				<div class="panel-body">
-					<?php echo ($message["content"]); ?>
+					<a href="<?php echo ($message["content"]); ?>"><?php echo ($message["content"]); ?></a>
 				</div>
 				<div class="panel-footer text-right">
 					分类: <span style="color: red;"><?php echo ($message["classify"]); ?> </span>&nbsp;&nbsp;&nbsp;&nbsp;时间：<?php echo ($message["created_at"]); ?>
