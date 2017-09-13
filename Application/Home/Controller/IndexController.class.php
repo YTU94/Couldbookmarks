@@ -65,6 +65,49 @@ class IndexController extends Controller {
         D('DeleteMessage')->delete($res,$tabName);
         return  show(1,'删除成功');
     }
-
-
+    // 删除分类
+    public function deleteClassify() {
+        $res = $_POST['id'];
+		$tabName = 'classify';
+		
+        if( $res == ""){
+            return show(0,'删除失败');
+        }
+        D('DeleteMessage')->delete($res,$tabName);
+        return show(1,'删除成功');
+    }
+    // 获取所有msg数据
+    public function getAllMsg() {
+        $model = M('messages');
+        $res = $_POST['classify'];
+        $result = ['status' => '1'];
+        if( $res == ""){
+            return show(0,'删除失败');
+        }
+        D('Addclassify')->addclass($res);
+        $allMessages = $model->order('created_at')->select();
+        return  show(1,'成功',$allMessages);
+    }
+    public function getClassify() {
+        $res = $_POST['classify'];
+        $classify = M('classify');
+        /*获取已经添加的分类*/
+        $allclassify = $classify->select();
+        return show(1, 'success', $allclassify);
+    }
+    // 添加msgs数据
+    public function addMsg() {
+        $model = M('messages');
+        $name = $_POST['name'];
+        $content = $_POST['content'];
+        $classify = $_POST['classify'];
+        $data =  [
+            'name' => $name,
+            'content' => $content,
+            'classify' => $classify,
+            'created_at' => date('Y-m-d H:i:s'),
+        ];
+        $model->data($data)->add();
+        return show(1, 'success', $data);
+    }
 }
