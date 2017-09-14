@@ -48,14 +48,14 @@ class IndexController extends Controller {
     /*验证分类数据 添加分类*/
     public  function check(){
         $res = $_POST['classify'];
-        $result = ['status' => '1'];
+            // $result = ['status' => '1'];
         if( $res == ""){
             return show(0,'删除失败');
         }
         D('Addclassify')->addclass($res);
         return  show(1,'删除成功');
     }
-    /*删除数据*/
+    /*删除数据 msg*/
     public function delMsg(){
         $res = $_POST['id'];
         $tabName = 'messages';
@@ -65,11 +65,10 @@ class IndexController extends Controller {
         D('DeleteMessage')->delete($res,$tabName);
         return  show(1,'删除成功');
     }
-    // 删除分类
+    // 删除分类 classify
     public function deleteClassify() {
         $res = $_POST['id'];
 		$tabName = 'classify';
-		
         if( $res == ""){
             return show(0,'删除失败');
         }
@@ -84,10 +83,10 @@ class IndexController extends Controller {
         if( $res == ""){
             return show(0,'删除失败');
         }
-        D('Addclassify')->addclass($res);
         $allMessages = $model->order('created_at')->select();
         return  show(1,'成功',$allMessages);
     }
+    // 获取所有classify数据
     public function getClassify() {
         $res = $_POST['classify'];
         $classify = M('classify');

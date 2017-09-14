@@ -9,7 +9,6 @@ class AddclassifyModel extends Model
 
 
 	public function addclass($classify) {
-
 		$_db = M('classify');
 		$data['cname'] = $classify;
 		$_db->data($data)->add();

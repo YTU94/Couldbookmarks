@@ -1,0 +1,1696 @@
+[ 2017-09-14T09:27:20+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.009729s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004127s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005955s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.003545s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000760s ]
+
+[ 2017-09-14T09:27:40+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004102s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000415s ]
+
+[ 2017-09-14T09:45:15+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.007011s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.005380s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005330s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000604s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000878s ]
+
+[ 2017-09-14T09:45:30+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005080s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004906s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004675s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000401s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000394s ]
+
+[ 2017-09-14T09:46:31+08:00 ] ::1 /couldbookmarks/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006357s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004435s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000519s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T09:47:01+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005354s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004812s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005095s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000548s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000517s ]
+
+[ 2017-09-14T09:48:17+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004765s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004254s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004549s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000410s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000384s ]
+
+[ 2017-09-14T09:48:41+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011521s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006435s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004617s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004511s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000663s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000928s ]
+
+[ 2017-09-14T09:49:38+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005257s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000681s ]
+
+[ 2017-09-14T09:49:45+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005091s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000593s ]
+
+[ 2017-09-14T09:49:56+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004495s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004436s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004699s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000536s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000508s ]
+
+[ 2017-09-14T10:15:54+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005862s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004907s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005192s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000511s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000661s ]
+
+[ 2017-09-14T10:15:55+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004157s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000410s ]
+
+[ 2017-09-14T10:19:24+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004988s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000731s ]
+
+[ 2017-09-14T10:24:02+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=addClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+ERR: 非法操作:addClassify
+
+[ 2017-09-14T10:24:20+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=deleteClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004767s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004953s ]
+SQL: DELETE FROM `classify` WHERE `id` = 58 [ RunTime:0.000620s ]
+
+[ 2017-09-14T10:25:51+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005473s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000591s ]
+
+[ 2017-09-14T10:25:51+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004837s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000463s ]
+
+[ 2017-09-14T10:25:59+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004069s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000406s ]
+
+[ 2017-09-14T10:26:02+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 50 行.
+
+[ 2017-09-14T10:26:11+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006243s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000984s ]
+
+[ 2017-09-14T10:35:06+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004777s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003948s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('234234234') [ RunTime:0.000592s ]
+
+[ 2017-09-14T10:35:17+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005260s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000430s ]
+
+[ 2017-09-14T11:11:52+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003152s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006003s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000482s ]
+
+[ 2017-09-14T11:13:24+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004614s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004852s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000384s ]
+
+[ 2017-09-14T11:14:30+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005726s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000285s ]
+
+[ 2017-09-14T11:14:39+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004670s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003935s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('test1') [ RunTime:0.000408s ]
+
+[ 2017-09-14T11:14:43+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005482s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000324s ]
+
+[ 2017-09-14T11:14:49+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004290s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003968s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('test2') [ RunTime:0.000376s ]
+
+[ 2017-09-14T11:14:55+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005224s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000366s ]
+
+[ 2017-09-14T11:15:42+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005273s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.005084s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004015s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000358s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000361s ]
+
+[ 2017-09-14T11:16:47+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005697s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005019s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004306s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004317s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000394s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000356s ]
+
+[ 2017-09-14T11:18:26+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005412s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004173s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004131s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000409s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000407s ]
+
+[ 2017-09-14T11:19:49+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006792s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.005020s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005171s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000568s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000748s ]
+
+[ 2017-09-14T11:20:28+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005377s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004387s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004330s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000369s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000343s ]
+
+[ 2017-09-14T11:20:44+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005910s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004947s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005110s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000498s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000453s ]
+
+[ 2017-09-14T11:22:16+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005533s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.005062s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004666s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000370s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000371s ]
+
+[ 2017-09-14T11:22:50+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005238s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004059s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004580s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000434s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000403s ]
+
+[ 2017-09-14T11:27:29+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005284s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000368s ]
+
+[ 2017-09-14T11:28:06+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006699s ]
+SQL: INSERT INTO `messages` (`name`,`content`,`classify`,`created_at`) VALUES ('123','123213213','123','2017-09-14 11:28:06') [ RunTime:0.000731s ]
+
+[ 2017-09-14T11:28:09+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006564s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004876s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005883s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000669s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000540s ]
+
+[ 2017-09-14T11:31:51+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.037857s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.005623s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.009124s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000833s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000822s ]
+
+[ 2017-09-14T11:33:16+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003728s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.007257s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 82 行.
+
+[ 2017-09-14T11:33:16+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.006100s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000653s ]
+
+[ 2017-09-14T11:33:19+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004767s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.003872s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004041s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000388s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000370s ]
+
+[ 2017-09-14T11:33:22+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004593s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004807s ]
+SQL: DELETE FROM `messages` WHERE `id` = 19 [ RunTime:0.000453s ]
+
+[ 2017-09-14T11:33:29+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001441s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004274s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005121s ]
+SQL: DELETE FROM `messages` WHERE `id` = 19 [ RunTime:0.000341s ]
+
+[ 2017-09-14T11:33:38+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005112s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004026s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004404s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000412s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000405s ]
+
+[ 2017-09-14T11:34:32+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004990s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004492s ]
+SQL: DELETE FROM `messages` WHERE `id` = 20 [ RunTime:0.000483s ]
+
+[ 2017-09-14T11:34:40+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005666s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004529s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004170s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000378s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000389s ]
+
+[ 2017-09-14T13:32:46+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004905s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000448s ]
+
+[ 2017-09-14T13:51:15+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005702s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000387s ]
+
+[ 2017-09-14T13:53:51+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004505s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000370s ]
+
+[ 2017-09-14T13:59:50+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005567s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000300s ]
+
+[ 2017-09-14T13:59:54+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004903s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004636s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('321') [ RunTime:0.000480s ]
+
+[ 2017-09-14T14:00:01+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004625s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000356s ]
+
+[ 2017-09-14T14:00:06+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004053s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000310s ]
+
+[ 2017-09-14T14:00:07+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005460s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000355s ]
+
+[ 2017-09-14T14:00:39+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.007150s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000464s ]
+
+[ 2017-09-14T14:00:44+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.003870s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004551s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('321654') [ RunTime:0.000366s ]
+
+[ 2017-09-14T14:00:51+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004820s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000468s ]
+
+[ 2017-09-14T14:00:53+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005679s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000371s ]
+
+[ 2017-09-14T14:00:54+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004722s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000336s ]
+
+[ 2017-09-14T14:00:56+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001420s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004947s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000353s ]
+
+[ 2017-09-14T14:01:06+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=addMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005809s ]
+SQL: INSERT INTO `messages` (`name`,`content`,`classify`,`created_at`) VALUES ('999','999','321654','2017-09-14 14:01:06') [ RunTime:0.000596s ]
+
+[ 2017-09-14T14:01:09+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004489s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004408s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004559s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000403s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000381s ]
+
+[ 2017-09-14T14:01:16+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.005400s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004944s ]
+SQL: DELETE FROM `messages` WHERE `id` = 34 [ RunTime:0.000641s ]
+
+[ 2017-09-14T14:01:19+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004830s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004479s ]
+SQL: DELETE FROM `messages` WHERE `id` = 33 [ RunTime:0.000576s ]
+
+[ 2017-09-14T14:01:23+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005668s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004004s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004282s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000339s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000384s ]
+
+[ 2017-09-14T14:01:29+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004903s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000324s ]
+
+[ 2017-09-14T14:02:53+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005597s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004833s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004241s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000405s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000343s ]
+
+[ 2017-09-14T14:02:57+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004884s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004470s ]
+SQL: DELETE FROM `messages` WHERE `id` = 21 [ RunTime:0.000520s ]
+
+[ 2017-09-14T14:03:05+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005375s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000334s ]
+
+[ 2017-09-14T14:06:38+08:00 ] ::1 /couldbookmarks/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005524s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001302s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:06:44+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.005316s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004540s ]
+SQL: DELETE FROM `messages` WHERE `id` = 22 [ RunTime:0.000425s ]
+
+[ 2017-09-14T14:06:46+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005707s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005008s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:06:53+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004786s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004254s ]
+SQL: DELETE FROM `messages` WHERE `id` = 23 [ RunTime:0.000537s ]
+
+[ 2017-09-14T14:06:54+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005512s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004779s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000395s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:06:55+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005536s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004595s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000339s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:06:57+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005373s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004228s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000363s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:07:02+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.005082s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005071s ]
+SQL: DELETE FROM `messages` WHERE `id` = 35 [ RunTime:0.000471s ]
+
+[ 2017-09-14T14:07:04+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005842s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004417s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000527s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:07:12+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005596s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000327s ]
+
+[ 2017-09-14T14:07:24+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004620s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004759s ]
+SQL: DELETE FROM `messages` WHERE `id` = 24 [ RunTime:0.000615s ]
+
+[ 2017-09-14T14:07:27+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005816s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004407s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000461s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:07:33+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004813s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004457s ]
+SQL: DELETE FROM `messages` WHERE `id` = 25 [ RunTime:0.000563s ]
+
+[ 2017-09-14T14:07:41+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005683s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004569s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:09:14+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005607s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004198s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004282s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000374s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000430s ]
+
+[ 2017-09-14T14:09:20+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.005300s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005509s ]
+SQL: DELETE FROM `messages` WHERE `id` = 27 [ RunTime:0.000613s ]
+
+[ 2017-09-14T14:09:33+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005644s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.003903s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:09:40+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004932s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004881s ]
+SQL: DELETE FROM `messages` WHERE `id` = 26 [ RunTime:0.000471s ]
+
+[ 2017-09-14T14:09:43+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006528s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004303s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000471s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:09:47+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005532s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004674s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000433s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:10:48+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005904s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.004407s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005209s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.004128s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000543s ]
+
+[ 2017-09-14T14:11:05+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.008574s ]
+SQL: SHOW COLUMNS FROM `addclassify` [ RunTime:0.005016s ]
+ERR: 1146:Table 'couldbookmarks.addclassify' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `addclassify`
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005348s ]
+SQL: INSERT INTO `classify` (`cname`) VALUES ('123') [ RunTime:0.000572s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000431s ]
+
+[ 2017-09-14T14:13:06+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006726s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005242s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:13:21+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004663s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000536s ]
+
+[ 2017-09-14T14:13:24+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004150s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005082s ]
+SQL: DELETE FROM `messages` WHERE `id` = 28 [ RunTime:0.000638s ]
+
+[ 2017-09-14T14:13:30+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005539s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000375s ]
+
+[ 2017-09-14T14:13:44+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005068s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000464s ]
+
+[ 2017-09-14T14:13:46+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004887s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004733s ]
+SQL: DELETE FROM `messages` WHERE `id` = 29 [ RunTime:0.000503s ]
+
+[ 2017-09-14T14:13:50+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getClassify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8] Undefined index: classify E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 91 行.
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.005289s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000370s ]
+
+[ 2017-09-14T14:16:06+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006217s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000396s ]
+
+[ 2017-09-14T14:17:24+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004991s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000482s ]
+
+[ 2017-09-14T14:17:36+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005706s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000616s ]
+
+[ 2017-09-14T14:18:14+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005905s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000426s ]
+
+[ 2017-09-14T14:20:51+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005715s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000380s ]
+
+[ 2017-09-14T14:21:25+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005643s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000463s ]
+
+[ 2017-09-14T14:29:14+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006922s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000478s ]
+
+[ 2017-09-14T14:29:46+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004081s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005245s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000415s ]
+
+[ 2017-09-14T14:30:09+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005505s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000415s ]
+
+[ 2017-09-14T14:31:04+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006309s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000472s ]
+
+[ 2017-09-14T14:31:07+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005919s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000563s ]
+
+[ 2017-09-14T14:31:50+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005926s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000419s ]
+
+[ 2017-09-14T14:32:41+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006210s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000503s ]
+
+[ 2017-09-14T14:32:53+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006223s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000400s ]
+
+[ 2017-09-14T14:33:12+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005138s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000373s ]
+
+[ 2017-09-14T14:33:14+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.004354s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004229s ]
+SQL: DELETE FROM `messages` WHERE `id` = 30 [ RunTime:0.000553s ]
+
+[ 2017-09-14T14:33:16+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006238s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000385s ]
+
+[ 2017-09-14T14:33:44+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004910s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000623s ]
+
+[ 2017-09-14T14:33:46+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=delMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+NOTIC: [2048] Declaration of Common\Model\DeleteMessageModel::delete() should be compatible with Think\Model::delete($options = Array) E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Common\Model\DeleteMessageModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `delete_message` [ RunTime:0.005093s ]
+ERR: 1146:Table 'couldbookmarks.delete_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `delete_message`
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004453s ]
+SQL: DELETE FROM `messages` WHERE `id` = 31 [ RunTime:0.000437s ]
+
+[ 2017-09-14T14:33:50+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005677s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000407s ]
+
+[ 2017-09-14T14:41:21+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005452s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004637s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000390s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:41:47+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006062s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004133s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000359s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011983s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
+[ 2017-09-14T14:42:07+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004842s ]
+SQL: SHOW COLUMNS FROM `classify` [ RunTime:0.004679s ]
+SQL: SELECT * FROM `classify`  [ RunTime:0.000358s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+NOTIC: [8] Undefined variable: res E:\Program Files\phpstudy\WWW\Couldbookmarks\Application\Home\Controller\IndexController.class.php 第 45 行.
+
