@@ -109,4 +109,38 @@ class IndexController extends Controller {
         $model->data($data)->add();
         return show(1, 'success', $data);
     }
+    /*
+    * user
+    */
+    // user注册
+    public function register() {
+        $model = M('users');
+        $name = $_POST['name'];
+        $password = $_POST['password'];
+        $email = $_POST['email'];
+        $data = [
+            'username' => $name,
+            'password' => $password,
+            'email' => $email
+        ];
+        if($name && $password && $email) {
+            $model->data($data)->add();
+            return show(1, 'success', $data);         
+        }else {
+            return show(0, '信息不完整', $data);
+        }
+    }
+    // user登录
+    public function login() {
+        $model = M('users');
+        $name = $_POST['name'];
+        $password = $_POST['password'];
+        $map['username'] = $name;
+        $data = $model->where($map)->getField('password');
+        if($data == $password) {
+            return show(1,'success', $data);
+        } else {
+            return show(0, '账号密码不对',$data);
+        }
+    }
 }

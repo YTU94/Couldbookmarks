@@ -16,4 +16,8 @@ class AddUserModel extends Model
 
 		$_db->data($data)->add();
 	}
+	public function checkLogin($username, $password) {
+		$_db = M('users');
+		$data = $_db->where('username = '+ $username +')->getFiled('password');
+	}
 }
