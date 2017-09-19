@@ -137,10 +137,11 @@ class IndexController extends Controller {
         $password = $_POST['password'];
         $map['username'] = $name;
         $data = $model->where($map)->getField('password');
+        $id = $model->where($map)->find();
         if($data == $password) {
-            return show(1,'success', $data);
+            return show(1,'success', $id);
         } else {
-            return show(0, '账号密码不对',$data);
+            return show(0, '账号密码不对',$id);
         }
     }
 }
