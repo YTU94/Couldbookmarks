@@ -1,0 +1,125 @@
+[ 2018-08-27T00:41:49+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.011956s ]
+SQL: SELECT `password` FROM `users` WHERE `username` = 'test21@timevale.com' LIMIT 1   [ RunTime:0.001027s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'test21@timevale.com' LIMIT 1   [ RunTime:0.000763s ]
+
+[ 2018-08-27T00:41:59+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.013488s ]
+SQL: SELECT `password` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.001298s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.001194s ]
+
+[ 2018-08-27T01:00:24+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.015945s ]
+SQL: SELECT `password` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.001701s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.000812s ]
+
+[ 2018-08-27T01:03:13+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.013442s ]
+SQL: SELECT `password` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.001315s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.001271s ]
+
+[ 2018-08-27T01:04:25+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.004928s ]
+SQL: SELECT `password` FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT * FROM `users` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.000321s ]
+
+[ 2018-08-27T01:06:14+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006608s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000990s ]
+
+[ 2018-08-27T01:07:46+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006656s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000476s ]
+
+[ 2018-08-27T01:08:21+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.014196s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.001270s ]
+
+[ 2018-08-27T01:10:10+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.010751s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000755s ]
+
+[ 2018-08-27T01:10:26+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.012677s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.001354s ]
+
+[ 2018-08-27T01:10:48+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.013597s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.001271s ]
+
+[ 2018-08-27T01:10:50+08:00 ] ::1 /couldbookmarks/index.php?m=home&c=index&a=getAllMsg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.005530s ]
+SQL: SELECT * FROM `messages` ORDER BY created_at  [ RunTime:0.000467s ]
+
